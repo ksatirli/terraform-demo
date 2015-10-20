@@ -1,0 +1,11 @@
+---
+
+- name: provisioning instance
+  gather_facts: false
+  hosts: localhost
+  vars:
+    terraform:
+      connection_string: "{{ lookup('pipe', 'terraform output ec2-terraform-demo.connection-string') }}"
+
+  tasks:
+    - debug: var=terraform.connection_string

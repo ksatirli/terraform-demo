@@ -1,0 +1,11 @@
+# Terraform: state variables
+terraform_state_s3_bucket = "..."
+terraform_state_s3_key = "..."
+
+# AWS: generic variables
+aws_access_key = "..."
+aws_secret_key = "..."
+
+# AWS: alias-specific variables
+aws_region.generic = "..."
+aws_region.storage = "..."

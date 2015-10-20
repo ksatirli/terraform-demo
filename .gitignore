@@ -20,6 +20,9 @@ Icon
 .Trashes
 
 ### Terraform ###
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
 .terraform/
 credentials.tf
 _credentials.tf
