@@ -1,18 +1,3 @@
-variable "terraform_state_s3_bucket" {
-  description = "Terraform: S3 bucket to store state in"
-  default = ""
-}
-
-variable "terraform_state_s3_key" {
-  description = "Terraform: key (path) to store state at"
-  default = ""
-}
-
-variable "terraform_state_s3_region" {
-  description = "Terraform: AWS region to load S3 bucket from"
-  default = ""
-}
-
 ###
  # Section: meta settings
  # These variables contain meta settings such as personal IPs
