@@ -26,3 +26,5 @@ terraform.tfstate.backup
 .terraform/
 credentials.tf
 _credentials.tf
+certificates/ssh/*
+!certificates/ssh/*.sh
