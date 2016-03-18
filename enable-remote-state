@@ -1,9 +1,0 @@
-#!/bin/sh
-
-terraform \
-  remote \
-  config \
-    -backend=S3 \
-    -backend-config="bucket=adj34hw-tf-us-west-1" \
-    -backend-config="key=tf-demo/terraform.tfstate" \
-    -backend-config="region=us-west-1"
