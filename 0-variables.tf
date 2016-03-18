@@ -53,7 +53,7 @@ variable "aws_ec2_ssh_users" {
 variable "aws_ec2_settings" {
   description = "EC2-specific settings"
   default = {
-    disable_api_termination = true
+    disable_api_termination = false
     default_os = "amazon" # The default OS AMI to use; this is dependant on the list in `aws_ec2_amis`
     storage_type = "gp2" # general purpose SSDs, see http://dcmnt.me/1NXSAo0
     delete_on_termination = false
