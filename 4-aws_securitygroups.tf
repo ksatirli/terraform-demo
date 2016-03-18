@@ -1,5 +1,5 @@
 resource "aws_security_group" "allow-tcp-for-egress-from-ec2" {
-  provider = "aws.us-west-2"
+  provider = "aws.eu-central-1"
   name = "allow all egress from EC2 instances"
 
   egress {

@@ -1,5 +1,5 @@
 resource "aws_security_group" "allow-tcp-for-ssh-from-knowns" {
-  provider = "aws.us-west-2"
+  provider = "aws.eu-central-1"
   name = "allow all ingress traffic for SSH from known IPs"
   description = "some random description"
 

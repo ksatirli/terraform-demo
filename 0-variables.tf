@@ -20,7 +20,7 @@ variable "meta_known_ipranges" {
 variable "aws_region" {
   description = "Region to work with"
   default = {
-    default = "us-west-2"
+    default = "eu-central-1"
   }
 }
 
@@ -37,11 +37,7 @@ variable "aws_secret_key" {
 variable "aws_ec2_amis" {
   description = "Region-specific AMIs"
   default = {
-    # all images below are of type HVM
-    eu-west-1_amazon = "ami-69b9941e" # Amazon Linux 2015.09
     eu-central-1_amazon = "ami-daaeaec7" # Amazon Linux 2015.09
-    us-west-1_amazon = "ami-cd3aff89" # Amazon Linux 2015.09
-    us-west-2_amazon = "ami-9ff7e8af" # Amazon Linux 2015.09
   }
 }
 

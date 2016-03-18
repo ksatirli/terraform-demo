@@ -1,12 +1,12 @@
 resource "aws_instance" "ec2-terraform-demo" {
-  provider = "aws.us-west-2"
+  provider = "aws.eu-central-1"
   count = 1
   ami = "${lookup(var.aws_ec2_amis, concat(var.aws_region.default,"_", var.aws_ec2_settings.default_os))}"
 
   instance_type = "t2.micro"
   disable_api_termination = "${var.aws_ec2_settings.disable_api_termination}"
 
-  key_name = "${aws_key_pair.keypair-terraform-demo-us-west-2.key_name}"
+  key_name = "${aws_key_pair.keypair-terraform-demo-eu-central-1.key_name}"
 
   vpc_security_group_ids = [
     "${aws_security_group.allow-tcp-for-egress-from-ec2.id}"
