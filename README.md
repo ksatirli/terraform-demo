@@ -10,13 +10,13 @@ This repository is a collection of AWS-based [Terraform](https://terraform.io/) 
 
 ### Maintainers
 
-This generator is currently maintained by the individuals listed below:
+This repository is currently maintained by the individuals listed below:
 
 * [Kerim Satirli](mailto:kerim@icemobile.com)
 
 # License
 
-`generator-terraform-module` is licensed under the _Apache 2.0_ license. A full copy of the license can be found on the [apache.org](http://www.apache.org/licenses/LICENSE-2.0) site.
+`terraform-demo` is licensed under the _Apache 2.0_ license. A full copy of the license can be found on the [apache.org](http://www.apache.org/licenses/LICENSE-2.0) site.
 
 In short, this license permits you to use this product commercially, distribute this software and make modifications.
 
